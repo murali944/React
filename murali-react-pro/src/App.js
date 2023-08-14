@@ -9,6 +9,7 @@ import Counter from "./components/Counter";
 import Functionclick from "./components/Functionclick";
 import ClassClick from "./components/ClassClick";
 import DestructuringClassComponent from "./components/DestructuringClassComponent";
+import EventBind from "./components/EventBind";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       <ClassClick></ClassClick>
 
       <DestructuringClassComponent userName="Ravi" userAge="32"></DestructuringClassComponent>
+      <EventBind></EventBind>
     </div>
   );
 }
