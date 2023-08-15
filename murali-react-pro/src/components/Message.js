@@ -1,17 +1,17 @@
-import React,{Component} from "react";
+import React, { Component } from "react";
 
 class Message extends React.Component {
 
-    constructor(){
+    constructor() {
         super()
         this.state = {
-            message : "Hello User !!"
+            message: "Hello User !!"
         }
     }
 
-    changeMessage(){
+    changeMessage() {
         this.setState({
-            message : "Thanks for your Subscription !!"
+            message: "Thanks for your Subscription !!"
         })
     }
 
@@ -19,7 +19,7 @@ class Message extends React.Component {
         return <div>
             <p>Hello User !!</p>
             <p>MESSAGE FROM STATE : {this.state.message}</p>
-            <button onClick={()=>{this.changeMessage()}}> Subscribe</button>
+            <button onClick={() => { this.changeMessage() }}> Subscribe</button>
         </div>
     }
 

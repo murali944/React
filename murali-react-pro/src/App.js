@@ -10,6 +10,7 @@ import Functionclick from "./components/Functionclick";
 import ClassClick from "./components/ClassClick";
 import DestructuringClassComponent from "./components/DestructuringClassComponent";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
 
       <DestructuringClassComponent userName="Ravi" userAge="32"></DestructuringClassComponent>
       <EventBind></EventBind>
+      <ParentComponent></ParentComponent>
     </div>
   );
 }
